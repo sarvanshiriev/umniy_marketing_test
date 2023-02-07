@@ -1,0 +1,105 @@
+.page-main {
+  max-width: 610px;
+  margin:150px auto auto auto;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .promo__heading {
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .advantages__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+  .advantages__item-heading {
+    margin: 30px 0 30px 0;
+    font-size: 18px;
+    color: gray;
+    font-weight: 200;
+  }
+  .advantages__item-text {
+    margin: 0;
+  }
+  .promo__text {
+    margin: 0;
+  }
+  a {
+    color: orange;
+    font-weight: 700;
+  }
+ table {
+  border: 1px solid ;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 610px;
+ }
+ td {
+  border: 1px solid ;
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+ }
+.table__cell{
+ font-weight: 700;
+ vertical-align: top;
+}
+.source {
+  margin-top: 30px;
+  text-align: right;
+  font-style: italic;
+}
+.seo {
+  position: relative;
+  left: 9%;
+  height: 250px;
+  width: 500px;
+}
+.context {
+  position: relative;
+  left: 9%;
+  height: 252px;
+  width: 508px;
+}
+.smm {
+  position: relative;
+  left: 20%;
+  top:35px;
+  margin-bottom: 30px;
+}
+.promo__img {
+  position: relative;
+  left: 9%;
+  height: 250px;
+  width: 500px;
+}
+.promo{
+  position: relative;
+}
+.promo__picture {
+  position: absolute;
+  top: -200px;
+  right: 0;
+  width: 233px;
+  height: 322px;
+}
